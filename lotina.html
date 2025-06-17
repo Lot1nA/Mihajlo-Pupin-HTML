@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mihajlo Pupin - Srpski velikan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('pozadina.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            color: #333;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #555;
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .column div {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        img {
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.03);
+        }
+
+        p {
+            max-width: 600px;
+            text-align: justify;
+            line-height: 1.7;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        nav {
+            margin-top: 25px;
+            font-size: 1.2em;
+        }
+
+        nav a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #004a99;
+            text-decoration: underline;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .column div {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mihajlo Pupin</h1>
+        <h2>Srpski genije koji je osvojio svet nauke</h2>
+
+        <nav>
+            <a href="biografija.html">Biografija</a> |
+            <a href="dela.html">Dela i pronalasci</a> |
+            <a href="nagrade.html">Nagrade i Priznanja</a> |
+            <a href="galerija.html">Galerija</a> |
+            <a href="zanimljivosti.html">Zanimljivosti</a> |
+        </nav>
+
+
+        <div class="column">
+            <div>
+                <img src="miki1.jpg" alt="Mihajlo Pupin u mladosti" width="250" height="250">
+                <p>Dobrodošli na stranicu posvećenu Mihajlu Pupinu, jednom od najvećih srpskih i svetskih naučnika. Rođen u Idvoru, Pupin je svojim izuzetnim talentom i neverovatnom upornošću dosegao vrhunce nauke u Americi. Njegova dostignuća su postavila temelje za mnoge moderne tehnologije i trajno su promenila svet.</p>
+            </div>
+            <div>
+                <img src="miki2.jpg" alt="Pupin u laboratoriji" width="250" height="250">
+                <p>Njegov rad, posebno u oblasti telekomunikacija, bio je revolucionaran. Pronalasci poput Pupinovih kalemova, koji su rešili problem prenosa telefonskih signala na velike udaljenosti, ključno su doprineli razvoju globalne komunikacione mreže. Osim toga, bio je pionir u istraživanju rendgenskih zraka i radio-tehnike, ostavljajući iza sebe više od 20 patenata.</p>
+            </div>
+            <div>
+                <img src="miki3.jpg" alt="Mihajlo Pupin - portret" width="250" height="250">
+                <p>Mihajlo Pupin nije bio samo briljantan naučnik; bio je i veliki filantrop, rodoljub i borac za interese srpskog naroda. Njegova autobiografija "Od pašnjaka do naučenjaka" svedoči o inspirativnom životnom putu i dobitnik je Pulicerove nagrade. Upoznajte se sa životom i delom ovog izuzetnog čoveka koji je zauvek obeležio istoriju nauke.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dizajn: Lotina Luka R21</p>
+    </footer>
+</body>
+</html>
